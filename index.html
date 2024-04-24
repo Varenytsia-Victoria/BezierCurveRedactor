@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+<link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+
+<div class="frame">
+    <span class="text">Редактор кривої Безьє</span>
+<div id="pointsList"></div>
+
+<div>
+    <button class="adding" onclick="addRow()">Додати рядок</button>
+</div>
+<div class="radio_step">
+<div class="radiobuttons">
+    <label>
+        <input type="radio" name="formulaType" value="parametric" checked> Параметричний
+    </label>
+    <label>
+        <input type="radio" name="formulaType" value="matrix"> Матричний
+    </label>
+</div>
+
+<div class="radio">
+    <label for="step">Крок:</label>
+    <input type="number" id="step" placeholder="Enter Step">
+    <label for="range">Проміжок:</label>
+    <input type="number" id="range" placeholder="Enter Range">
+    <button class="add_row calculate" onclick="calculateCoordinates()">Обчислити координати</button>
+</div>
+</div>
+
+<div class="btns">
+<button id="drawButton">Малювати</button>
+
+<button id="save" onclick="saveMatrix()">Зберегти матрицю</button>
+</div>
+</div>
+<canvas id="canvas" width="600" height="400"></canvas>
+<div id="results"> </div>
+
+
+<script src="index.js"></script>
+</body>
+</html>

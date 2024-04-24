@@ -1,0 +1,135 @@
+body {
+    font-family: sans-serif;
+    font-size: 17px;
+
+}
+
+#canvas {
+    border: 0.1px solid #5a5858;
+    margin-top: 20px;
+    justify-self: center;
+    flex-direction: column;
+    position: fixed;
+    left: 500px;
+}
+
+#pointsList {
+    margin-top: 10px;
+}
+
+
+.frame{
+border: solid 0.5px #838080f7;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+margin: 1.3rem;
+max-width: 440px;
+}
+
+
+
+.radiobuttons{
+    border: solid 0.5px #838080f7;
+    border-radius: 3px;
+margin: 1rem;
+padding: 1rem;
+display: flex;
+flex-direction: column;
+margin-right: 0.5rem;
+white-space: nowrap;
+justify-content: center;
+}
+
+body{
+    display: flex;
+    gap: 20px;
+}
+
+.radio_step{
+    display: flex;
+}
+
+.radio{
+    border: solid 0.5px #838080f7;
+    border-radius: 3px;
+margin: 1rem;
+padding: 1rem;
+margin-left: 0.5rem;
+display: flex;
+flex-direction: column;
+}
+
+button{
+    background-color: #1988b4f7;
+    border: none;
+    color: antiquewhite;
+    margin: 5px;
+    padding: 10px 6px;
+    border-radius: 4px;
+}
+
+#save #drawButton{
+    width: fit-content;
+}
+
+input{
+    padding: 5px;
+    border-radius: 3px;
+    border: solid 0.5px #838080f7;
+    margin: 3px;
+}
+
+.dots{
+    border: solid 0.5px #838080f7;
+    border-radius: 3px;
+    margin: 5px 15px;
+    padding: 10px;
+
+}
+
+.btns{
+    margin-left: 192px;
+    margin-bottom: 10px;
+    padding-inline: 10px;
+}
+
+.js_btn{
+    margin-top: 10px;
+}
+
+.text{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.add_row{
+    margin-top: 10px;
+
+}
+
+.adding{
+    margin-left: 290px;
+    margin-top: 10px;
+    padding-inline: 25px;
+}
+
+.inputs_js{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0 ;
+
+}
+
+
+.error-input::placeholder {
+    color: rgb(181, 6, 6);
+}
+
+#results{
+    border: solid 2px black;
+    margin-top: 450px;
+    position: fixed;
+    margin-left: 500px;
+}
